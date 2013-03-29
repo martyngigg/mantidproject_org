@@ -1,0 +1,146 @@
+/* Main Styles for HTML Elements */
+html, body
+{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Verdana, Geneva, "Bitstream Vera Sans", Helvetica, sans-serif;
+  font-size: 103%;
+  /* possibly both of these should be removed */
+  color: #000;
+  background-color: #FFF;
+}
+
+img
+{
+  border: 0;
+}
+
+h1,h2,h3,h4,h5 {
+  font-family: Georgia, "Bitstream Vera Serif", "New York", Palatino, serif;
+  font-weight:normal;
+  line-height: 1em;
+}
+
+h1
+{
+  font-size: 160%;
+  color: #234764;
+  margin: 0.7em 0 0.7em 0;
+  text-decoration: none;
+}
+
+h1 a {
+  color: #234764;
+}
+
+#intro h1 {
+  font-size:145%;
+}
+h2
+{
+  font-size: 140%;
+
+  color: #366D9C;
+  margin: 0.7em 0 0.7em 0;
+}
+
+h3
+{
+  font-size: 135%;
+  font-style:italic;
+  color: #366D9C;
+  margin: 0.4em 0 0.0em 0;
+}
+
+h4
+{
+  font-size: 125%;
+  color: #366D9C;
+  margin: 0.4em 0 0.0em 0;
+}
+
+/* Logo */
+#logoheader
+{
+  border: 0;
+  margin: 0;
+  padding: 1px;
+  z-index: 1;
+  background-color:#F7F7F7;
+  background-repeat: repeat-x;
+  border-bottom: 1px solid #999999;
+  height:92px;
+  }
+
+#logo
+{
+  width: 138px;
+  height:81px;
+  margin-top: 10px;
+  margin-left: 3%;
+}
+
+/* main content section */
+#content-body
+{
+  position: absolute;
+  left: 0;
+  top: 65px;
+  width: 97.0%;
+  z-index: 0;
+  font-size:75%;
+  margin-left:3.0%;
+  min-width:660px;
+}
+
+
+#body-main
+{
+  padding: 0 0.55em 40px 0.0em;
+  line-height: 1.4em;
+  font-family: Arial, Verdana, Geneva, "Bitstream Vera Sans", Helvetica, sans-serif;
+  margin-left: 11em;
+}
+
+#body-main {
+  font-size:100%;
+}
+
+#content {
+  min-height:500px;
+  _height:500px;
+  font-size:115%;
+}
+
+/* Overlayed on header */
+#header-overlay
+{
+  vertical-align: middle;
+  color: #3A4969;
+  font-size: 115%;
+  margin-bottom:30px;
+  /*padding-left:0.9em;*/
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+#content p, #content li {
+  line-height: 1.5;
+}
+
+.release-green{
+  padding:15px;
+/*  background-color: #C0D9C1; */
+/*  background-color: #C8E6C9;*/
+}
+
+.release-white{
+  padding:15px;
+  background-color: #FFFFFF;
+}
+
+/* Release table cell padding */
+table.release-table td { 
+  padding: 4px; 
+}
+
